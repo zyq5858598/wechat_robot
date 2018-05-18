@@ -12,7 +12,7 @@ api = 'wx/saveBug'
 upload = 'wx/uploadFile'
 projectPostfix = '项目'
 countChar = 2
-mysql = sql.myMysal()
+mysql = sql.myMysql()
 class MyWXBot(WXBot):
     '''
     接受消息
